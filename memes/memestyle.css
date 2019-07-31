@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background: #262626;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 450px;
+  background-color: #ffffff;
+}
+
+/*#img_1 { background-image:url(http://www.talentafricagroup.com/images/Nyege%20Nyege%20post_Image_ibe_452x537_1x.png); }
+#img_2 { background-image:url(http://www.talentafricagroup.com/images/39980197_1904701332943851_2269832431445999616_o_ibe_452x537_1x.png); }
+#img_3 { background-image:url(http://www.talentafricagroup.com/images/134.jpg?crc=53873466); }
+#img_4 { background-image:url(http://www.talentafricagroup.com/images/Nyege%20Nyege%20post_Image_ibe_452x537_1x.png); }
+#img_5 { background-image:url(http://www.talentafricagroup.com/images/39980197_1904701332943851_2269832431445999616_o_ibe_452x537_1x.png); }
+#img_6 { background-image:url(http://www.talentafricagroup.com/images/134.jpg?crc=53873466); }
+#img_7 { background-image:url(http://www.talentafricagroup.com/images/Nyege%20Nyege%20post_Image_ibe_452x537_1x.png); }
+#img_8 { background-image:url(http://www.talentafricagroup.com/images/39980197_1904701332943851_2269832431445999616_o_ibe_452x537_1x.png); }
+#img_9 { background-image:url(http://www.talentafricagroup.com/images/134.jpg?crc=53873466); }*/
+
+.swiper-slide .imgBx {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.swiper-slide .imgBx img {
+  width: 100%;
+/*  object-fit: cover;*/
+}
+
+.swiper-slide .details {
+  box-sizing: border-box;
+
+  padding: 20px;
+} 
+
+.swiper-slide .details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.swiper-slide .details h3 span {
+  font-size: 18px;
+  color: #f44336;
+}
+
+/*Swiper----------------------------------*/
+
